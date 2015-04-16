@@ -1,12 +1,12 @@
 <?php
 namespace BlackBoxCode\Pando\Bundle\NoteBundle\Model;
 
-use BlackBoxCode\Pando\Bundle\BaseBundle\Model\HasIdTrait;
+use BlackBoxCode\Pando\Bundle\BaseBundle\Model\BaseTrait;
 use Doctrine\ORM\Mapping as ORM;
 
 trait NoteTrait
 {
-    use HasIdTrait;
+    use BaseTrait;
 
     /**
      * @ORM\Column(type="text", nullable=false)
