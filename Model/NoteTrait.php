@@ -2,6 +2,7 @@
 namespace BlackBoxCode\Pando\Bundle\NoteBundle\Model;
 
 use BlackBoxCode\Pando\Bundle\BaseBundle\Model\IdTrait;
+use BlackBoxCode\Pando\Bundle\UserBundle\Model\UserInterface;
 use Doctrine\ORM\Mapping as ORM;
 
 trait NoteTrait
