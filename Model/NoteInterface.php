@@ -1,8 +1,8 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\NoteBundle\Model;
+namespace BlackBoxCode\Pando\NoteBundle\Model;
 
-use BlackBoxCode\Pando\Bundle\BaseBundle\Model\IdInterface;
-use BlackBoxCode\Pando\Bundle\UserBundle\Model\UserInterface;
+use BlackBoxCode\Pando\BaseBundle\Model\IdInterface;
+use BlackBoxCode\Pando\UserBundle\Model\UserInterface;
 
 interface NoteInterface extends IdInterface
 {

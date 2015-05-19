@@ -1,8 +1,8 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\NoteBundle\Model;
+namespace BlackBoxCode\Pando\NoteBundle\Model;
 
-use BlackBoxCode\Pando\Bundle\BaseBundle\Model\IdTrait;
-use BlackBoxCode\Pando\Bundle\UserBundle\Model\UserInterface;
+use BlackBoxCode\Pando\BaseBundle\Model\IdTrait;
+use BlackBoxCode\Pando\UserBundle\Model\UserInterface;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
